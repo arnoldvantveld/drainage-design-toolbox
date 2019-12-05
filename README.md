@@ -24,12 +24,7 @@ This tool is tested for QGIS3 and only step 5 and 6 of the toolbox are available
 3. Click in the toolbox on the models icon (red/grey/blue) -> add model to toolbox (e.g. step 5)
 4. Repeat this for the other model (e.g. step 6)
 
-## Usage
-
-### ArcGIS tutorial
-An ArcGIS tutorial is included, please read this for using ArcGIS.
-
-### Documentation
+## Documentation
 The documentation consists of four components:
 - Description of every tool with goal, data requirement, results and assumptions in one page
 - Products which could be derived after using the tool
