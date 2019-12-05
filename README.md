@@ -12,7 +12,7 @@ This tool is tested for ArcMap 10.6 and 10.7
 4. Right-mouse click -> Save environment -> Save to default
 
 ### QGIS toolbox
-This tool is tested for QGIS3
+This tool is tested for QGIS3 and only step 5 and 6 of the toolbox are available in QGIS.
 1. Start QGIS3
 2. Go to processing menu -> Toolbox
 3. Click in the toolbox on the models icon (red/grey/blue) -> add model to toolbox (e.g. step 5)
@@ -23,5 +23,9 @@ This tool is tested for QGIS3
 ### ArcGIS tutorial
 An ArcGIS tutorial is included, please read this for using ArcGIS.
 
-### Background documentation
-The background documentation describes every tool in a onepager with goal, data requirement, results and assumptions.
+### Documentation
+The documentation consists of four components:
+- Description of every tool with goal, data requirement, results and assumptions in one page
+- Products which could be derived after using the tool
+- Working procedure how to use this tool in a design process
+- ArcGIS tutorial about how to use this tool in ArcGIS
