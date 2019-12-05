@@ -6,6 +6,8 @@ This tool has been designed for two purposes:
 The first use of this toolbox is in the refugee camps near Cox's Bazar in Bangladesh. 
 The tool is developed by Arnold van 't Veld (DSSWater - Nelen & Schuurmans) in collaboration with UNHCR, WFP and IOM and is now open to use for other humanitarian contexts.
 
+Please use this tool for your purpose and share your issues and improvements on this platform.
+
 ## Installation
 
 ### ArcGIS toolbox
