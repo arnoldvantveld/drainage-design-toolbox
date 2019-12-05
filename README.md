@@ -1,2 +1,27 @@
 # Drainage Design Toolbox
-Calculating dimensions of secondary and tertiary drainage system (slope, width, depth) and checking connectivity of the drainage system compared with existing drainage system
+- Calculating dimensions of secondary and tertiary drainage system (slope, width, depth) 
+- Checking connectivity of the drainage system compared with existing drainage system and landslide risk
+
+## Installation
+
+### ArcGIS toolbox
+This tool is tested for ArcMap 10.6 and 10.7
+1. Start ArcGIS 10.6 or 10.7
+2. Go to your folder in Catalog
+3. Drag the Toolbox inside the Toolbox panel
+4. Right-mouse click -> Save environment -> Save to default
+
+### QGIS toolbox
+This tool is tested for QGIS3
+1. Start QGIS3
+2. Go to processing menu -> Toolbox
+3. Click in the toolbox on the models icon (red/grey/blue) -> add model to toolbox (e.g. step 5)
+4. Repeat this for the other model (e.g. step 6)
+
+## Usage
+
+### ArcGIS tutorial
+An ArcGIS tutorial is included, please read this for using ArcGIS.
+
+### Background documentation
+The background documentation describes every tool in a onepager with goal, data requirement, results and assumptions.
