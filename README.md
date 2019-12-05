@@ -4,7 +4,7 @@ This tool has been designed for two purposes:
 - Checking connectivity of the drainage system compared with existing drainage system and landslide risk
 
 The first use of this toolbox is in the refugee camps near Cox's Bazar in Bangladesh. 
-The tool is developed by Arnold van 't Veld in collaboration with UNHCR, WFP and IOM and is now open to use for other humanitarian contexts.
+The tool is developed by Arnold van 't Veld (DSSWater - Nelen & Schuurmans) in collaboration with UNHCR, WFP and IOM and is now open to use for other humanitarian contexts.
 
 ## Installation
 
