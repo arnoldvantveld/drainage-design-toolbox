@@ -1,178 +1,178 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis minScale="1e+08" simplifyDrawingTol="1" simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyMaxScale="1" version="3.8.3-Zanzibar" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyLocal="1" labelsEnabled="0" readOnly="0">
+<qgis labelsEnabled="0" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" version="3.8.3-Zanzibar" maxScale="0" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" minScale="1e+08">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <renderer-v2 type="graduatedSymbol" symbollevels="0" attr="width" forceraster="0" enableorderby="0" graduatedMethod="GraduatedSize">
+  <renderer-v2 attr="width" graduatedMethod="GraduatedSize" type="graduatedSymbol" enableorderby="0" symbollevels="0" forceraster="0">
     <ranges>
-      <range render="true" label="No design needed (&lt; 0.25 m)" upper="0.250000000000000" symbol="0" lower="0.000000000000000"/>
-      <range render="true" label="Simple design needed (&lt; 0.5 m)" upper="0.500000000000000" symbol="1" lower="0.250000000000000"/>
-      <range render="true" label="Design needed (&lt; 1m)" upper="1.000000000000000" symbol="2" lower="0.500000000000000"/>
-      <range render="true" label="Design needed (> 1m)" upper="99999.000000000000000" symbol="3" lower="1.000000000000000"/>
+      <range upper="0.250000000000000" label="No design needed (&lt; 0.25 m)" render="true" symbol="0" lower="0.000000000000000"/>
+      <range upper="0.500000000000000" label="Simple design needed (&lt; 0.5 m)" render="true" symbol="1" lower="0.250000000000000"/>
+      <range upper="1.000000000000000" label="Design needed (&lt; 1m)" render="true" symbol="2" lower="0.500000000000000"/>
+      <range upper="99999.000000000000000" label="Design needed (> 1m)" render="true" symbol="3" lower="1.000000000000000"/>
     </ranges>
     <symbols>
-      <symbol type="line" clip_to_extent="1" alpha="1" force_rhr="0" name="0">
-        <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-          <prop v="square" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
-          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MM" k="customdash_unit"/>
-          <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="53,121,0,255" k="line_color"/>
-          <prop v="solid" k="line_style"/>
-          <prop v="0.15" k="line_width"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="0" k="ring_filter"/>
-          <prop v="0" k="use_custom_dash"/>
-          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+      <symbol name="0" alpha="1" clip_to_extent="1" type="line" force_rhr="0">
+        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="149,190,127,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="0.6"/>
+          <prop k="line_width_unit" v="MM"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="ring_filter" v="0"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" clip_to_extent="1" alpha="1" force_rhr="0" name="1">
-        <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-          <prop v="square" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
-          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MM" k="customdash_unit"/>
-          <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="53,121,0,255" k="line_color"/>
-          <prop v="solid" k="line_style"/>
-          <prop v="0.3" k="line_width"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="0" k="ring_filter"/>
-          <prop v="0" k="use_custom_dash"/>
-          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+      <symbol name="1" alpha="1" clip_to_extent="1" type="line" force_rhr="0">
+        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="53,121,0,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="0.9"/>
+          <prop k="line_width_unit" v="MM"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="ring_filter" v="0"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" clip_to_extent="1" alpha="1" force_rhr="0" name="2">
-        <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-          <prop v="square" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
-          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MM" k="customdash_unit"/>
-          <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="226,155,41,255" k="line_color"/>
-          <prop v="solid" k="line_style"/>
-          <prop v="0.6" k="line_width"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="0" k="ring_filter"/>
-          <prop v="0" k="use_custom_dash"/>
-          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+      <symbol name="2" alpha="1" clip_to_extent="1" type="line" force_rhr="0">
+        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="226,155,41,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="1.2"/>
+          <prop k="line_width_unit" v="MM"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="ring_filter" v="0"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" clip_to_extent="1" alpha="1" force_rhr="0" name="3">
-        <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-          <prop v="square" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
-          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MM" k="customdash_unit"/>
-          <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="170,118,21,255" k="line_color"/>
-          <prop v="solid" k="line_style"/>
-          <prop v="0.8" k="line_width"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="0" k="ring_filter"/>
-          <prop v="0" k="use_custom_dash"/>
-          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+      <symbol name="3" alpha="1" clip_to_extent="1" type="line" force_rhr="0">
+        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="150,44,44,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="1.5"/>
+          <prop k="line_width_unit" v="MM"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="ring_filter" v="0"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol type="line" clip_to_extent="1" alpha="1" force_rhr="0" name="0">
-        <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-          <prop v="square" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
-          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MM" k="customdash_unit"/>
-          <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="53,121,0,255" k="line_color"/>
-          <prop v="solid" k="line_style"/>
-          <prop v="0.2" k="line_width"/>
-          <prop v="MM" k="line_width_unit"/>
-          <prop v="0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="0" k="ring_filter"/>
-          <prop v="0" k="use_custom_dash"/>
-          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+      <symbol name="0" alpha="1" clip_to_extent="1" type="line" force_rhr="0">
+        <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="53,121,0,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="0.2"/>
+          <prop k="line_width_unit" v="MM"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="ring_filter" v="0"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option name="name" type="QString" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option name="type" type="QString" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </source-symbol>
     <mode name="quantile"/>
-    <symmetricMode symmetryPoint="0.032" astride="false" enabled="false"/>
+    <symmetricMode astride="false" enabled="false" symmetryPoint="0.032"/>
     <rotation/>
     <sizescale/>
-    <labelformat trimtrailingzeroes="false" format="%1 - %2" decimalplaces="3"/>
+    <labelformat format="%1 - %2" trimtrailingzeroes="false" decimalplaces="3"/>
   </renderer-v2>
   <labeling type="simple">
     <settings>
-      <text-style fontLetterSpacing="0" fieldName="round(width, 1)" namedStyle="Regular" fontWordSpacing="0" blendMode="0" fontSizeUnit="Point" fontSize="10" textOpacity="1" fontStrikeout="0" isExpression="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" multilineHeight="1" fontUnderline="0" useSubstitutions="0" fontCapitals="0" textColor="0,0,0,255" previewBkgrdColor="#ffffff" fontFamily="MS Shell Dlg 2" fontWeight="50">
-        <text-buffer bufferSize="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferNoFill="1" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="0"/>
-        <background shapeOffsetUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeSizeY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeDraw="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeSizeUnit="MM" shapeFillColor="255,255,255,255" shapeSizeType="0" shapeSizeX="0" shapeRadiiY="0" shapeBorderColor="128,128,128,255" shapeRadiiUnit="MM" shapeType="0" shapeJoinStyle="64" shapeRotation="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeRotationType="0" shapeBorderWidth="0" shapeOpacity="1" shapeBlendMode="0" shapeOffsetX="0"/>
-        <shadow shadowOffsetAngle="135" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255" shadowRadiusUnit="MM" shadowOpacity="0.7" shadowOffsetUnit="MM" shadowBlendMode="6" shadowDraw="0" shadowUnder="0" shadowOffsetGlobal="1" shadowRadius="1.5" shadowOffsetDist="1" shadowRadiusAlphaOnly="0" shadowScale="100"/>
+      <text-style previewBkgrdColor="#ffffff" fontUnderline="0" fontSizeUnit="Point" namedStyle="Regular" textColor="0,0,0,255" fontStrikeout="0" blendMode="0" fontItalic="0" isExpression="1" fontSize="10" useSubstitutions="0" fontFamily="MS Shell Dlg 2" fontWeight="50" fontCapitals="0" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" textOpacity="1" multilineHeight="1" fontLetterSpacing="0" fieldName="round(width, 1)">
+        <text-buffer bufferNoFill="1" bufferBlendMode="0" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128" bufferColor="255,255,255,255" bufferDraw="0" bufferSizeUnits="MM"/>
+        <background shapeDraw="0" shapeOpacity="1" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRotation="0" shapeOffsetUnit="MM" shapeBorderWidthUnit="MM" shapeRadiiY="0" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeSizeY="0" shapeSizeUnit="MM" shapeType="0" shapeBorderWidth="0" shapeBlendMode="0" shapeSizeX="0" shapeJoinStyle="64" shapeOffsetY="0" shapeRotationType="0" shapeSVGFile="" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeOffsetX="0" shapeRadiiUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0"/>
+        <shadow shadowRadiusUnit="MM" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadius="1.5" shadowOpacity="0.7" shadowUnder="0" shadowColor="0,0,0,255" shadowDraw="0" shadowOffsetAngle="135" shadowOffsetGlobal="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowBlendMode="6" shadowOffsetDist="1" shadowOffsetUnit="MM"/>
         <substitutions/>
       </text-style>
-      <text-format autoWrapLength="0" reverseDirectionSymbol="0" placeDirectionSymbol="0" addDirectionSymbol="0" rightDirectionSymbol=">" plussign="0" decimals="3" leftDirectionSymbol="&lt;" formatNumbers="0" useMaxLineLengthForAutoWrap="1" multilineAlign="0" wrapChar=""/>
-      <placement geometryGeneratorType="PointGeometry" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" priority="5" placement="2" repeatDistance="0" distMapUnitScale="3x:0,0,0,0,0,0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0" yOffset="0" offsetType="0" maxCurvedCharAngleOut="-25" quadOffset="4" distUnits="MM" repeatDistanceUnits="MM" placementFlags="10" centroidInside="0" fitInPolygonOnly="0" centroidWhole="0" geometryGenerator="" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" geometryGeneratorEnabled="0" preserveRotation="1" xOffset="0" rotationAngle="0" maxCurvedCharAngleIn="25" offsetUnits="MM"/>
-      <rendering drawLabels="1" fontLimitPixelSize="0" displayAll="0" obstacle="1" upsidedownLabels="0" fontMinPixelSize="3" fontMaxPixelSize="10000" obstacleType="0" mergeLines="0" maxNumLabels="2000" obstacleFactor="1" limitNumLabels="0" scaleVisibility="0" labelPerPart="0" scaleMax="0" scaleMin="0" zIndex="0" minFeatureSize="0"/>
+      <text-format placeDirectionSymbol="0" wrapChar="" leftDirectionSymbol="&lt;" decimals="3" reverseDirectionSymbol="0" formatNumbers="0" useMaxLineLengthForAutoWrap="1" plussign="0" multilineAlign="0" rightDirectionSymbol=">" autoWrapLength="0" addDirectionSymbol="0"/>
+      <placement predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" distMapUnitScale="3x:0,0,0,0,0,0" quadOffset="4" centroidInside="0" placement="2" yOffset="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" distUnits="MM" maxCurvedCharAngleIn="25" xOffset="0" offsetType="0" preserveRotation="1" repeatDistance="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0" geometryGenerator="" placementFlags="10" priority="5" geometryGeneratorEnabled="0" fitInPolygonOnly="0" offsetUnits="MM" maxCurvedCharAngleOut="-25" centroidWhole="0" rotationAngle="0" repeatDistanceUnits="MM" geometryGeneratorType="PointGeometry"/>
+      <rendering fontLimitPixelSize="0" maxNumLabels="2000" displayAll="0" labelPerPart="0" drawLabels="1" limitNumLabels="0" fontMinPixelSize="3" upsidedownLabels="0" fontMaxPixelSize="10000" zIndex="0" obstacleFactor="1" obstacleType="0" obstacle="1" mergeLines="0" scaleMax="0" minFeatureSize="0" scaleMin="0" scaleVisibility="0"/>
       <dd_properties>
         <Option type="Map">
-          <Option type="QString" value="" name="name"/>
+          <Option name="name" type="QString" value=""/>
           <Option name="properties"/>
-          <Option type="QString" value="collection" name="type"/>
+          <Option name="type" type="QString" value="collection"/>
         </Option>
       </dd_properties>
     </settings>
@@ -182,25 +182,25 @@
       <value>TARGET_FID</value>
       <value>"TARGET_FID"</value>
     </property>
-    <property value="0" key="embeddedWidgets/count"/>
+    <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory scaleBasedVisibility="0" penColor="#000000" labelPlacementMethod="XHeight" minScaleDenominator="0" sizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" penAlpha="255" barWidth="5" width="15" rotationOffset="270" backgroundAlpha="255" penWidth="0" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" scaleDependency="Area" enabled="0" opacity="1" sizeType="MM" minimumSize="0" height="15" maxScaleDenominator="1e+08">
+  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+    <DiagramCategory penAlpha="255" width="15" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" backgroundColor="#ffffff" lineSizeType="MM" rotationOffset="270" minScaleDenominator="0" scaleDependency="Area" backgroundAlpha="255" maxScaleDenominator="1e+08" penColor="#000000" penWidth="0" opacity="1" enabled="0" labelPlacementMethod="XHeight" height="15" barWidth="5" sizeType="MM" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" minimumSize="0">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute label="" color="#000000" field=""/>
+      <attribute field="" label="" color="#000000"/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings linePlacementFlags="18" dist="0" showAll="1" obstacle="0" zIndex="0" priority="0" placement="2">
+  <DiagramLayerSettings priority="0" obstacle="0" linePlacementFlags="18" zIndex="0" dist="0" placement="2" showAll="1">
     <properties>
       <Option type="Map">
-        <Option type="QString" value="" name="name"/>
+        <Option name="name" type="QString" value=""/>
         <Option name="properties"/>
-        <Option type="QString" value="collection" name="type"/>
+        <Option name="type" type="QString" value="collection"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
@@ -217,6 +217,20 @@
       </editWidget>
     </field>
     <field name="grid_code">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="from_node">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="to_node">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -244,13 +258,6 @@
         </config>
       </editWidget>
     </field>
-    <field name="depth">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
     <field name="Slope">
       <editWidget type="TextEdit">
         <config>
@@ -265,13 +272,6 @@
         </config>
       </editWidget>
     </field>
-    <field name="rainfall">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
     <field name="discharge">
       <editWidget type="TextEdit">
         <config>
@@ -279,7 +279,7 @@
         </config>
       </editWidget>
     </field>
-    <field name="velocity">
+    <field name="depth">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -293,7 +293,28 @@
         </config>
       </editWidget>
     </field>
-    <field name="designneed">
+    <field name="tmp_width">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="loop">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="rainfall">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="velocity">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -302,87 +323,102 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias index="0" field="arcid" name=""/>
-    <alias index="1" field="grid_code" name=""/>
-    <alias index="2" field="MIN_elev" name=""/>
-    <alias index="3" field="MAX_elev" name=""/>
-    <alias index="4" field="MIN_runoff" name=""/>
-    <alias index="5" field="depth" name=""/>
-    <alias index="6" field="Slope" name=""/>
-    <alias index="7" field="LENGTH_GEO" name=""/>
-    <alias index="8" field="rainfall" name=""/>
-    <alias index="9" field="discharge" name=""/>
-    <alias index="10" field="velocity" name=""/>
-    <alias index="11" field="width" name=""/>
-    <alias index="12" field="designneed" name=""/>
+    <alias name="" field="arcid" index="0"/>
+    <alias name="" field="grid_code" index="1"/>
+    <alias name="" field="from_node" index="2"/>
+    <alias name="" field="to_node" index="3"/>
+    <alias name="" field="MIN_elev" index="4"/>
+    <alias name="" field="MAX_elev" index="5"/>
+    <alias name="" field="MIN_runoff" index="6"/>
+    <alias name="" field="Slope" index="7"/>
+    <alias name="" field="LENGTH_GEO" index="8"/>
+    <alias name="" field="discharge" index="9"/>
+    <alias name="" field="depth" index="10"/>
+    <alias name="" field="width" index="11"/>
+    <alias name="" field="tmp_width" index="12"/>
+    <alias name="" field="loop" index="13"/>
+    <alias name="" field="rainfall" index="14"/>
+    <alias name="" field="velocity" index="15"/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <defaults>
-    <default expression="" applyOnUpdate="0" field="arcid"/>
-    <default expression="" applyOnUpdate="0" field="grid_code"/>
-    <default expression="" applyOnUpdate="0" field="MIN_elev"/>
-    <default expression="" applyOnUpdate="0" field="MAX_elev"/>
-    <default expression="" applyOnUpdate="0" field="MIN_runoff"/>
-    <default expression="" applyOnUpdate="0" field="depth"/>
-    <default expression="" applyOnUpdate="0" field="Slope"/>
-    <default expression="" applyOnUpdate="0" field="LENGTH_GEO"/>
-    <default expression="" applyOnUpdate="0" field="rainfall"/>
-    <default expression="" applyOnUpdate="0" field="discharge"/>
-    <default expression="" applyOnUpdate="0" field="velocity"/>
-    <default expression="" applyOnUpdate="0" field="width"/>
-    <default expression="" applyOnUpdate="0" field="designneed"/>
+    <default applyOnUpdate="0" field="arcid" expression=""/>
+    <default applyOnUpdate="0" field="grid_code" expression=""/>
+    <default applyOnUpdate="0" field="from_node" expression=""/>
+    <default applyOnUpdate="0" field="to_node" expression=""/>
+    <default applyOnUpdate="0" field="MIN_elev" expression=""/>
+    <default applyOnUpdate="0" field="MAX_elev" expression=""/>
+    <default applyOnUpdate="0" field="MIN_runoff" expression=""/>
+    <default applyOnUpdate="0" field="Slope" expression=""/>
+    <default applyOnUpdate="0" field="LENGTH_GEO" expression=""/>
+    <default applyOnUpdate="0" field="discharge" expression=""/>
+    <default applyOnUpdate="0" field="depth" expression=""/>
+    <default applyOnUpdate="0" field="width" expression=""/>
+    <default applyOnUpdate="0" field="tmp_width" expression=""/>
+    <default applyOnUpdate="0" field="loop" expression=""/>
+    <default applyOnUpdate="0" field="rainfall" expression=""/>
+    <default applyOnUpdate="0" field="velocity" expression=""/>
   </defaults>
   <constraints>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="arcid"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="grid_code"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="MIN_elev"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="MAX_elev"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="MIN_runoff"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="depth"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Slope"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="LENGTH_GEO"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="rainfall"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="discharge"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="velocity"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="width"/>
-    <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="designneed"/>
+    <constraint exp_strength="0" field="arcid" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="grid_code" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="from_node" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="to_node" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="MIN_elev" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="MAX_elev" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="MIN_runoff" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="Slope" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="LENGTH_GEO" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="discharge" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="depth" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="width" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="tmp_width" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="loop" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="rainfall" unique_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="velocity" unique_strength="0" notnull_strength="0" constraints="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint field="arcid" exp="" desc=""/>
-    <constraint field="grid_code" exp="" desc=""/>
-    <constraint field="MIN_elev" exp="" desc=""/>
-    <constraint field="MAX_elev" exp="" desc=""/>
-    <constraint field="MIN_runoff" exp="" desc=""/>
-    <constraint field="depth" exp="" desc=""/>
-    <constraint field="Slope" exp="" desc=""/>
-    <constraint field="LENGTH_GEO" exp="" desc=""/>
-    <constraint field="rainfall" exp="" desc=""/>
-    <constraint field="discharge" exp="" desc=""/>
-    <constraint field="velocity" exp="" desc=""/>
-    <constraint field="width" exp="" desc=""/>
-    <constraint field="designneed" exp="" desc=""/>
+    <constraint desc="" field="arcid" exp=""/>
+    <constraint desc="" field="grid_code" exp=""/>
+    <constraint desc="" field="from_node" exp=""/>
+    <constraint desc="" field="to_node" exp=""/>
+    <constraint desc="" field="MIN_elev" exp=""/>
+    <constraint desc="" field="MAX_elev" exp=""/>
+    <constraint desc="" field="MIN_runoff" exp=""/>
+    <constraint desc="" field="Slope" exp=""/>
+    <constraint desc="" field="LENGTH_GEO" exp=""/>
+    <constraint desc="" field="discharge" exp=""/>
+    <constraint desc="" field="depth" exp=""/>
+    <constraint desc="" field="width" exp=""/>
+    <constraint desc="" field="tmp_width" exp=""/>
+    <constraint desc="" field="loop" exp=""/>
+    <constraint desc="" field="rainfall" exp=""/>
+    <constraint desc="" field="velocity" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
   <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;runoff&quot;">
     <columns>
-      <column type="field" width="-1" hidden="0" name="arcid"/>
-      <column type="field" width="-1" hidden="0" name="grid_code"/>
-      <column type="field" width="-1" hidden="0" name="discharge"/>
-      <column type="field" width="-1" hidden="0" name="depth"/>
-      <column type="field" width="-1" hidden="0" name="width"/>
+      <column name="arcid" type="field" width="-1" hidden="0"/>
+      <column name="grid_code" type="field" width="-1" hidden="0"/>
+      <column name="discharge" type="field" width="-1" hidden="0"/>
+      <column name="depth" type="field" width="-1" hidden="0"/>
+      <column name="width" type="field" width="-1" hidden="0"/>
       <column type="actions" width="-1" hidden="1"/>
-      <column type="field" width="-1" hidden="0" name="MIN_elev"/>
-      <column type="field" width="-1" hidden="0" name="MAX_elev"/>
-      <column type="field" width="-1" hidden="0" name="MIN_runoff"/>
-      <column type="field" width="-1" hidden="0" name="Slope"/>
-      <column type="field" width="-1" hidden="0" name="LENGTH_GEO"/>
-      <column type="field" width="-1" hidden="0" name="rainfall"/>
-      <column type="field" width="-1" hidden="0" name="velocity"/>
-      <column type="field" width="-1" hidden="0" name="designneed"/>
+      <column name="MIN_elev" type="field" width="-1" hidden="0"/>
+      <column name="MAX_elev" type="field" width="-1" hidden="0"/>
+      <column name="MIN_runoff" type="field" width="-1" hidden="0"/>
+      <column name="Slope" type="field" width="-1" hidden="0"/>
+      <column name="LENGTH_GEO" type="field" width="-1" hidden="0"/>
+      <column name="rainfall" type="field" width="-1" hidden="0"/>
+      <column name="velocity" type="field" width="-1" hidden="0"/>
+      <column name="from_node" type="field" width="-1" hidden="0"/>
+      <column name="to_node" type="field" width="-1" hidden="0"/>
+      <column name="tmp_width" type="field" width="-1" hidden="0"/>
+      <column name="loop" type="field" width="-1" hidden="0"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -413,29 +449,29 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="1" name="Join_Count"/>
-    <field editable="1" name="LENGTH_GEO"/>
-    <field editable="1" name="MAX_elev"/>
-    <field editable="1" name="MIN_elev"/>
-    <field editable="1" name="MIN_runoff"/>
-    <field editable="1" name="Slope"/>
-    <field editable="1" name="TARGET_FID"/>
-    <field editable="1" name="arcid"/>
-    <field editable="1" name="depth"/>
-    <field editable="1" name="designneed"/>
-    <field editable="1" name="discharge"/>
-    <field editable="1" name="from_node"/>
-    <field editable="1" name="grid_code"/>
-    <field editable="1" name="loop"/>
-    <field editable="1" name="max_elev"/>
-    <field editable="1" name="min_elev"/>
-    <field editable="1" name="rainfall"/>
-    <field editable="1" name="runoff"/>
-    <field editable="1" name="slope"/>
-    <field editable="1" name="tmp_width"/>
-    <field editable="1" name="to_node"/>
-    <field editable="1" name="velocity"/>
-    <field editable="1" name="width"/>
+    <field name="Join_Count" editable="1"/>
+    <field name="LENGTH_GEO" editable="1"/>
+    <field name="MAX_elev" editable="1"/>
+    <field name="MIN_elev" editable="1"/>
+    <field name="MIN_runoff" editable="1"/>
+    <field name="Slope" editable="1"/>
+    <field name="TARGET_FID" editable="1"/>
+    <field name="arcid" editable="1"/>
+    <field name="depth" editable="1"/>
+    <field name="designneed" editable="1"/>
+    <field name="discharge" editable="1"/>
+    <field name="from_node" editable="1"/>
+    <field name="grid_code" editable="1"/>
+    <field name="loop" editable="1"/>
+    <field name="max_elev" editable="1"/>
+    <field name="min_elev" editable="1"/>
+    <field name="rainfall" editable="1"/>
+    <field name="runoff" editable="1"/>
+    <field name="slope" editable="1"/>
+    <field name="tmp_width" editable="1"/>
+    <field name="to_node" editable="1"/>
+    <field name="velocity" editable="1"/>
+    <field name="width" editable="1"/>
   </editable>
   <labelOnTop>
     <field labelOnTop="0" name="Join_Count"/>
